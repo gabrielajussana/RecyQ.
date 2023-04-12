@@ -1,11 +1,9 @@
-import './App.css';
+import React from 'react';
+
+import RootRoutes from './routes';
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  return <RootRoutes />;
 }
 
 export default App;
