@@ -5,7 +5,12 @@ module.exports = {
     fontFamily: {
       'noto-serif':['Noto Serif']
     },
-    extend: {},
+    extend: {
+      spacing: {
+        '30': '20vh',
+        '98': '80vh',
+      }
+    },
   },
   plugins: [],
 }
