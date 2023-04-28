@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, MenuList, Logo } from './style';
+import { Container, MenuList, Logo, MenuLink } from './style';
 import { ButtonComponent } from '../Button';
 
 export const TheHeader = () => {
@@ -9,9 +9,9 @@ export const TheHeader = () => {
             RecyQ.
         </Logo>
         <MenuList>
-            <a>Home</a>
-            <a>Sobre nós</a>
-            <a>Produtos Reciclavéis</a>
+            <MenuLink>Home</MenuLink>
+            <MenuLink>Sobre nós</MenuLink>
+            <MenuLink>Produtos Reciclavéis</MenuLink>
         </MenuList>
         <ButtonComponent name="Entrar"/>
     </Container>
